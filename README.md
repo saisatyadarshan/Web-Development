@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
+## HTML BASICS
 
-You can use the [editor on GitHub](https://github.com/saisatyadarshan/Web-Development/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+All HTML documents must start with a document type declaration: <!DOCTYPE html>.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The HTML document itself begins with <html> and ends with </html>.
 
-### Markdown
+The visible part of the HTML document is between <body> and </body>.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### EXAMPLE -
+<!DOCTYPE html>
+<html>
+<body>
 
-```markdown
-Syntax highlighted code block
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
 
-# Header 1
-## Header 2
-### Header 3
+</body>
+</html>
 
-- Bulleted
-- List
+### The <!DOCTYPE> Declaration
 
-1. Numbered
-2. List
+The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
 
-**Bold** and _Italic_ and `Code` text
+It must only appear once, at the top of the page (before any HTML tags).
 
-[Link](url) and ![Image](src)
-```
+The <!DOCTYPE> declaration is not case sensitive.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The <!DOCTYPE> declaration for HTML5 is:
 
-### Jekyll Themes
+<!DOCTYPE html>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/saisatyadarshan/Web-Development/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### The <!DOCTYPE> Declaration
+The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
 
-### Support or Contact
+It must only appear once, at the top of the page (before any HTML tags).
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The <!DOCTYPE> declaration is not case sensitive.
+
+The <!DOCTYPE> declaration for HTML5 is:
+
+<!DOCTYPE html>
+
+### HTML Headings
+HTML headings are defined with the <h1> to <h6> tags.
+
+<h1> defines the most important heading. <h6> defines the least important heading: 
+
+#### Example
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+HTML Paragraphs
+HTML paragraphs are defined with the <p> tag:
+
+#### Example
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+HTML Links
+HTML links are defined with the <a> tag:
+
+### HTML Images
+HTML images are defined with the <img> tag.
+
+The source file (src), alternative text (alt), width, and height are provided as attributes:
+
+### View HTML Source Code:
+Right-click in an HTML page and select "View Page Source" (in Chrome) or "View Source" (in Edge), or similar in other browsers. This will open a window containing the HTML source code of the page.
+
+### Inspect an HTML Element:
+Right-click on an element (or a blank area), and choose "Inspect" or "Inspect Element" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
