@@ -40,24 +40,6 @@ The <!DOCTYPE> declaration for HTML5 is:
 
 <!DOCTYPE html>
 
-### HTML Headings
-HTML headings are defined with the <h1> to <h6> tags.
-
-<h1> defines the most important heading. <h6> defines the least important heading: 
-
-#### Example
-<h1>This is heading 1</h1>
-<h2>This is heading 2</h2>
-<h3>This is heading 3</h3>
-HTML Paragraphs
-HTML paragraphs are defined with the <p> tag:
-
-#### Example
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
-HTML Links
-HTML links are defined with the <a> tag:
-
 ### HTML Images
 HTML images are defined with the <img> tag.
 
